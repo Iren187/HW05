@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../font/Roboto/Roboto-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;  
+}
+
+body {
+    background: #C4C4C4;
+    font-family: "Roboto-Bold";
+}
+
+.clearfix {
+    clear: both;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #E6E6E6;
+    margin: 50px 0;
+}
+
+.box {
+    background: #FC8F8F;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    font-size: 64px;
+    float: left;
+    text-align: center;
+    line-height: 200px;
+    margin-left: 15px;
+}
+
+.box:first-child {
+    margin-left: 0;
+}
+
+.box.small {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    line-height: 100px;
+}
+
+.align-right {
+    float: right;
+}
+
+
